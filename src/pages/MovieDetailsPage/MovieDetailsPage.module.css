@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 10px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  color: aqua;
+  border: 1px solid aqua;
+  background-color: #5e5a5a;
+  &:hover,
+  &:focus {
+    color: rgb(109, 109, 245);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(109, 109, 245);
+  }
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+.link {
+  font-size: 24px;
+  color: aqua;
+  font-weight: 500;
+  &:hover,
+  &:focus {
+    color: rgb(109, 109, 245);
+  }
+}

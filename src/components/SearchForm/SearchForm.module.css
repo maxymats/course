@@ -1,0 +1,28 @@
+.input {
+  width: 300px;
+  height: 30px;
+  padding-left: 4px;
+  outline: none;
+  margin-right: 20px;
+  border: 1px solid aqua;
+  &:hover,
+  &:focus {
+    color: rgb(109, 109, 245);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(109, 109, 245);
+  }
+}
+.btn {
+  width: 100px;
+  color: aqua;
+  height: 30px;
+  outline: none;
+  border: 1px solid aqua;
+  background-color: #5e5a5a;
+  &:hover,
+  &:focus {
+    color: rgb(109, 109, 245);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(109, 109, 245);
+  }
+}
